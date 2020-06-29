@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Links</title>
+	<style>
+		ul li{
+			list-style: circle;
+		}
+		a.heading:link , a.heading:visited{
+			text-decoration: none;
+			background-color: white;
+			border: none;
+			color: black;
+			text-align: left;
+			display: inline;
+		}
+		a:link ,a:visited{
+			text-decoration: none;
+			color: white;
+			background-color: blue;
+			border: 1px solid blue;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 3px;
+		}
+		a.heading:hover{
+			color: blue;
+		}
+		a:hover{
+			background-color: green;
+			border:1px solid green;
+		}
+		h1:hover h6{
+			display :block;
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+		}
+		h6{
+			display: none;
+			color: black;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 name="top">OOPS<div><h6>Object Oriented Programming</h6></div></h1><br><hr><br>
+	
+	<div><a href="#bottom" >Go to bottom</a></div>
+	<section>
+	<ul>
+		<li><a href ="#class" class="heading">class</a></li>
+		<li><a href ="#object" class="heading">object</a></li>
+		<li><a href ="#abstraction" class="heading">abstraction</a></li>
+		<li><a href ="#data hiding" class="heading">data hiding</a></li>
+		<li><a href ="#encapsulation" class="heading">encapsulation</a></li>
+		<li><a href ="#polymorphism" class="heading">polymorphism</a></li>
+		<li><a href ="#dynamic binding" class="heading">dynamic binding</a></li>
+		<li><a href ="#message passing" class="heading">message passing</a></li>
+	</ul>
+	</section>
+	<br><hr><br>
+	<div id = "class"><h2>Class</h2>
+	class is a blue print of an object . it defines the structure of object how the object is going to be look like. it is basically a collection of object or we can say that it is collection of methods and attributes.</div><br><hr><br>
+	
+	<div id = "object"><h2>Object</h2>
+	object is a real world entity. it is instance of class. memory is allocated to the attributes of class when its object is created.</div><br><hr><br>
+	
+	<div id = "abstraction"><h2>Abstraction</h2>
+	It is a feature or property in which we shows only essential details or hide the background details or implementaion like if we create a stack we hide the implementation of it and we only show essential features like push, pull etc.</div><br><hr><br>
+	
+	<div id = "data hiding"><h2>Data Hiding</h2>
+	Data hiding is common feature of object orientation in which we hide the data by providing access specifiers like public, private, protected, and default.</div><br><hr><br>
+	
+	<div id = "encapsulation"><h2>Encapsulation</h2>
+	Encapsulation is a process or way of binding object with it's attributes and behaviour. Like in real life we carry our cell phone with ourself it's attributes like camera , sensors , screen etc. are always with the phone and also it carries it behaviours of calling and other features along with it. So this method of wrapping of data in single unit or capsule is called as encapsulation.</div><br><hr><br>
+
+	<div id = "polymorphism"><h2>Polymorphism</h2>
+	Basic definition of polymorphism is single name and multiple functionality. There is two types of polymorphism :-
+	<ol>
+		<li>compile time</li>
+		<li>run time</li>
+	</ol>
+	<br>compile time polymorphism is function overloading and operator overloading while run time polymorphism is method overriding with virtual function.</div><br><hr><br>
+
+	<div id = "dynamic binding message passing"><h2>Dynamic Binding AND Message Passing</h2>
+		<a href="https://www.geeksforgeeks.org/differences-between-dynamic-binding-and-message-passing-in-java/" class="heading">To read about dynamic binding and message passing you can refer this.</a></div><br><hr><br>
+	<footer id="bottom"><a href="#top" title="OOP" >Back to headings</a></footer>
+	</body>
+</html>
