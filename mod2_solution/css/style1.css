@@ -13,7 +13,7 @@ section
 	border: 1px solid black;
 	margin-bottom: 20px;
 }
-.p1
+.p1,.p2
 {
 	width: 90%;
 	height: 200px;
@@ -21,15 +21,6 @@ section
 	margin-left: auto;
 	padding: 10px;
 	background-color: #AEB6BF;
-}
-.p2
-{
-	width: 95%;
-	height: 200px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 10px;
-	background-color: #AEB6BF;	
 }
 .row
 {
@@ -51,6 +42,9 @@ section
 	.col-md2{
 		float: left;
 		width: 100%;
+	}
+	.p2{
+		width: 95%;
 	}
 }
 @media(max-width: 767px)
