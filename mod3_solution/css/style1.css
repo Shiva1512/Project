@@ -1,0 +1,91 @@
+body
+{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+	background-color: #FF69B8;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1
+{	/*restaurant name*/
+	font-family: 'Lora', serif;
+	color: #61122f;
+	font-size: 1.5em;
+	font-weight: bold;
+	//text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border: 1px solid #61122f;
+}
+#nav-list
+{
+	margin-top: 10px;//-60
+}
+#nav-list a
+{
+	color: #61122f;
+	text-align: center;
+}
+#menu-title
+{
+	color: #61122f;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	margin-bottom: 30px;
+}
+
+section.row
+{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+#content
+{
+	background-color: #FF69B8;
+	padding: 20px;
+	height: 1300px;
+	overflow: hidden;
+	//margin-left: 20px;
+	//margin-right: 20px;
+}
+#content p.p1
+{
+	color: #61122f;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#content p
+{
+	color: #000;
+	margin: 10px 0 10px 0;
+}
+@media(max-width: 767px)
+{
+	.navbar-brand h1/* company name */
+	{
+		padding-top: 10px;
+		//font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	#collapsable-nav a /* collapsed nav menu */
+	{
+		font-size: 1.2em;
+	}
+}
