@@ -1,0 +1,322 @@
+body{
+	font-family: arial;
+	background-color: #fbfcfc;
+}
+h1{
+	color: #A93226;
+	background-color: #f5f5f5;
+	font-family: 'Architects Daughter', cursive;
+	height: 100px;
+	font-size: xxx-large;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+h2{
+	color: #A93226;
+	background-color: #f5f5f5;
+	font-family: 'Architects Daughter', cursive;
+	height: 100px;
+	font-size: x-large;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+#header-nav 
+{
+	background-color: #f5f5f5;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/logo.png') no-repeat;
+	height: 100px;
+	width: 340px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logo-img1{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/logo1.png') no-repeat;
+	height: 100px;
+	width: 340px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -60px;
+}
+#collapsable-nav a{
+	color: black;
+} 
+#nav-list{
+	margin-top: 60px;
+	//margin-right: 20px;
+	color:#000000;
+}
+
+#social-media{
+	font-size: 36px;
+	//margin-right: 0px;
+}
+.fab{
+	margin-right: 15px;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.user{
+	height: 100px;
+	width: 99px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+#box{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid #85C1E9;
+	border-radius: 10%;
+	box-shadow: 0 0 30px #7fcce6;
+	height: 400px;
+	width: 300px;
+	text-align: center;
+}
+input{
+	width: 90%;
+	height: 40px;
+	margin-right: auto;
+	margin-left: -10px;
+	padding-left: 35px;
+}
+p + input{
+	width: 90%;
+	height: 40px;
+	margin-right: auto;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+	box-shadow: 2px 4px 18px #7fcce6;
+}
+#update{
+	width: 100px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 0px;
+    background-color: #AED6F1;
+    border-radius: 15px;
+    border:1px solid blue;
+    color: black;
+}
+#login{
+	width: 50%;
+	height: 40px;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-left: 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #2E86C1;
+	border: 1px solid #3498DB;
+	background-color: #AED6F1;
+	text-align: center;
+	font-size: 17px;
+}
+div > span.glyphicon{
+	position: relative;
+	left: 15px;
+}
+#about{
+	margin:10px 10px 10px 10px;
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/aboutUsImage.jpg') no-repeat;
+	height: 100%;
+	width: 80%;
+}
+#view{
+	height: 50px;
+	width: 100%;
+	border: 1px solid #3498DB;
+	color: blue;
+	background-color: #AED6F1;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+.viewbox{
+	border: 1px solid #3498DB;
+}
+#info{
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+#info > div{
+	border: 1px solid #BDC3C7;
+	padding: 10px;
+}
+section > a{
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+/** main page  **/
+#ct{
+	float: left;
+	margin: 10px;
+	font-size: 35px;
+    padding-top: 120px;
+    padding-left: 100px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+#canteen{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/canteen.jpg') no-repeat;
+	height: 426px;
+	width: 594px;
+	border-radius: 50%;
+	float: left;
+	border: 1px solid black;
+}
+#st{
+	float: left;
+	clear: left;
+	margin: 10px;
+	font-size: 35px;
+    padding-top: 150px;
+    padding-left: 100px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+#sport{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/Sportss.jpg') no-repeat;
+	border-radius: 50%;
+	height: 476px;
+	width: 672px;
+	border: 1px solid black;
+	float: right;
+}
+#ft{
+	float: left;
+	margin: 10px;
+	font-size: 35px;
+    padding-top: 150px;
+    padding-left: 100px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+#fest{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/fest.jpg') no-repeat;
+	border-radius: 50%;
+	height: 476px;
+	width: 672px;
+	border: 1px solid black;
+	float: left;
+}
+#bt{
+	float: left;
+	clear: left;
+	margin: 10px;
+	font-size: 35px;
+    padding-top: 150px;
+    padding-left: 100px;
+    color: black;
+    font-family: 'Bangers', cursive;
+    /*background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/effect.png') no-repeat;
+    height: 100px;
+    width: 100px;*/
+}
+#bus{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/buses.jpg') no-repeat;
+	border-radius: 50%;
+	height: 476px;
+	width: 672px;
+	float: right;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+
+/**** jumbotron ****/
+.container .jumbotron
+{
+	box-shadow: 0 0 50px #b3b6b7;
+	border: 2px solid #3f0c1f;
+}
+
+/*********large devices only ********/
+@media(min-width: 1200px)
+{
+	.container .jumbotron
+	{
+		/**1125-666**/
+		background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/jumbotron1200.png') no-repeat;
+		height: 568px;
+	}
+}
+
+/*********medium devices only*****/
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	.container .jumbotron
+	{
+		/***931-641**/
+		background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/jumbotron992.png') no-repeat;
+		height: 469px;
+	}
+}
+
+/********small devices only ********/
+@media(min-width: 768px) and (max-width: 991px)
+{
+	/* home page */
+	.container .jumbotron
+	{
+		/**731-641**/
+		background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/jumbotron.jpg') no-repeat;
+		height: 368px;
+	}
+	/* end home page */
+}
+
+
+/**********extra small devices***********/
+@media (max-width: 767px)
+{
+	#collapsable-nav a /* collapsed nav menu glyph */
+	{
+		font-size: 1.2em;
+		color: black;
+	}
+	#collapsable-nav a span/* collapsed nav menu glyph */
+	{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	#nav-list{
+		margin-top: 0px;
+		text-align: center;
+	}
+	.container .jumbotron
+	{
+		//margin-top: 30px;
+		padding: 0;
+	}
+}
+/**********super extra small devices**********/
+@media (max-width: 550px)
+{
+	#logo-img{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/smallLogo1.png') no-repeat;
+	}
+	#logo-img1{
+	background: url('C:/Users/MAHIMA PAWAR/Project/scis/images/smallLogo.png') no-repeat;
+	}
+}
